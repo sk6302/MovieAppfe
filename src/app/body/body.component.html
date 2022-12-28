@@ -1,0 +1,32 @@
+<div class="card" id="card1">
+        <div class="card" id="card2">
+                <div id="name">
+                        <label>Name:</label>
+                        <br>
+                    <input type="text" placeholder="Enter Name" [(ngModel)]="user1.name">
+                    </div>
+                    <div id="email">
+                    <br>
+                    <label>Email:</label>
+                    <br>
+                    <input type="text" placeholder="Enter Email id" [(ngModel)]="user1.email">
+                    </div>
+                    <br>
+                    <div id="pass">
+                    <label>Password</label>
+                    <br>
+                    <input type="password" placeholder="Enter Password" [(ngModel)]="user1.password">
+                    </div>
+                    <br>
+<div id="but">
+<input type="button" (click)="submit()" value="Sign-Up"><br>
+</div>
+
+<div id="lin">
+<h6>Already have an account! </h6>
+<a href="/Login">Login</a>
+</div>
+</div>
+(click)="getallusersinformation()";
+
+

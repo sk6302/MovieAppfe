@@ -1,0 +1,26 @@
+input[type="text"]{
+    background-color: rgb(87, 213, 213);
+    margin-top: 6cm;
+    margin-left: 10cm;
+    width: 10cm;
+    height: 1cm;
+}
+input[type="button"]{
+    background-color: rgb(18, 19, 19);
+   margin-top: -38px;
+    margin-left: 20cm;
+    width: 5cm;
+    height: 1cm;
+    color: white;
+}
+
+
+#card1{
+    width: 100%;
+    height: 520px;
+    background-image: url("http://getwallpapers.com/wallpaper/full/f/1/b/375459.jpg");
+    background-position: 80%;
+    background-size: cover;
+}
+
+
